@@ -174,7 +174,7 @@
             top: 50%;
             right: 5px;
             width: 2px;
-            background-color: #ed3242;
+            background-color: white;
             transform: translateY(-50%);
             transition: transform 0.4s;
         }
@@ -186,7 +186,7 @@
             top: 50%;
             right: 0;
             width: 12px;
-            background-color: #ed3242;
+            background-color: white;
             transform: translateY(-50%);
 
         }
