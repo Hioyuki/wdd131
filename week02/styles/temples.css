@@ -127,7 +127,7 @@
             width: 300px;
             visibility: hidden;
             padding-top: 60px;
-            background-color::blueviolet;
+            background-color: #8A2BE2;
             transition: 0.4s;
         }
         .header__nav-area.-active {
