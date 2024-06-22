@@ -127,7 +127,7 @@
             width: 300px;
             visibility: hidden;
             padding-top: 60px;
-            background-color: #fff;
+            background-color::blueviolet;
             transition: 0.4s;
         }
         .header__nav-area.-active {
@@ -211,7 +211,7 @@
             margin-top: 21px;
         }
         .accordion__link {
-            color: #172e59;
+            color: white;
         }
 
     h1{
