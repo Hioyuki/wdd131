@@ -74,7 +74,7 @@
         content: '閉じる';
         }*/
         .hamburger__line {
-            display: white;
+            color:white;
             height: 2px;
             position: absolute;
             top: 23px;
