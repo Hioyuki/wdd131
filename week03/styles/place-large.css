@@ -1,0 +1,200 @@
+:root {
+    --primary-bg-color: #FB9A85;
+    --secondary-bg-color: #FEEDBD;
+    --text-color: #202456;
+    --font-size-large: 100px;
+    --font-size-medium: 30px;
+    --font-family: "Caveat Brush", cursive;
+    --petal-animation-duration: 10s;
+}
+
+
+    @keyframes animate-petal {
+        0% {
+        top: 0;
+        opacity: 0;
+        transform: rotate(0deg);
+        }
+        10% {
+        opacity: 1;
+        }
+        90% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        top: 100vh;
+        transform: rotate(3000deg);
+        }
+    }
+
+    body {
+        font-family: "Caveat Brush", cursive;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sp{
+        display: none !important;
+    }
+
+    .pc{
+        display: block !important;
+    }
+    
+    h1 {
+        font-size: 100px;
+        margin: 0;
+        padding: 0.2em 0;
+    }
+    
+    header, section, footer {
+        padding: 1em;
+        width: 100%;
+    }
+    
+    header {
+        background: #FB9A85;
+        color: #202456;
+        text-align: center;
+    }
+    
+    footer {
+        background: #FEEDBD;
+        color: #202456;
+        text-align: center;
+    }
+    
+    .main-content img{
+        width:100%;
+        height: auto;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        position: relative;
+    }
+    
+    .data, .weather {
+        width: 20%;
+        background: rgba(244, 244, 244, 0.8);
+        padding: 1em;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .point1 {
+        background-color: rgba(249, 109, 135, 0.5);
+        text-align: center;
+        font-size: 30px;
+        padding: 0.005px;
+    }
+    
+    .data {
+        left: 40px;
+        top: 100px;
+    }
+    
+    .weather {
+        right:60px;
+        top: 450px;
+    }
+    
+    .point2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(249, 109, 135, 0.5);
+    }
+    
+    .point2 h2 {
+        font-size: 30px;
+    }
+    
+    .point2 img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .point2 img::before {
+        content: "🌞";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        font-size: 20px;
+        color: #FFDDC1;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    .main-content {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    .main-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+
+    .cherry-blossom-container {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+
+    .petal {
+        position: absolute;
+        background-color: #ffc0cb;
+        border-radius: 150% 0 150% 0;
+        animation: animate-petal 10s linear;
+    }
+    
+    .petal::after {
+        content: "";
+        position: absolute;
+        top: -14%;
+        left: -10%;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #ffc0cb;
+        border-radius: 150% 0 150% 0;
+        transform: rotate(15deg);
+    }
+    
+
+    @keyframes animate-petal {
+        0% {
+            top: 0;
+            opacity: 0;
+            transform: rotate(0deg);
+        }
+        10% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            top: 100vh;
+            transform: rotate(3000deg);
+        }
+    }

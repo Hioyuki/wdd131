@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a sample webpage description under 150 characters.">
+    <title>Sample Webpage</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <link rel="canonical" href="https://www.example.com/">
+    <link rel="alternate" href="https://www.example.com/es/" hreflang="es">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css" media="screen and (max-width:1000px)">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Japan</h1>
+    </header>
+    <section>
+        <div class="main-content">
+            <div class="cherry-blossom-container">
+                <picture>
+
+    <source srcset="images/Japan-photo.webp" media="(min-width: 1001px)">
+    <img src="images/japan-photo2.webp" alt="Japanese Image">
+                </picture>
+            </div>
+        </div>
+        <div class="data">
+            <div class="point1">
+                <h2>Data</h2>
+            </div>
+            <p class="officialName"></p>
+            <p class="capital"></p>
+            <p class="population"></p>
+            <p class="area"></p>
+            <p class="currency"></p>
+            <p class="officialLanguage"></p>
+            <p class="internationalDialingCode"></p>
+            <p class="gdp"></p>
+        </div>
+        <div class="weather">
+            <div class="point2">
+                <h2>Weather</h2>
+                <img src="images/1530384_weather_evening_sun_sunset_icon (1).svg" alt="Sunny Image">
+            </div>
+            <p class="temperature">Temperature: </p>
+            <p class="conditions">Conditions: </p>
+            <p class="wind">Wind: </p>
+            <p class="wind-chill">Wind Chill: </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;<span id="currentyear"></span>Hiroyuki Shimada Japan</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>

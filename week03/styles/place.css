@@ -1,0 +1,115 @@
+@media screen and (max-width: 1000px) {
+
+    :root {
+        --primary-bg-color: #FB9A85;
+        --secondary-bg-color: #FEEDBD;
+        --text-color: #202456;
+        --font-size-large: 100px;
+        --font-size-medium: 30px;
+        --font-family: "Caveat Brush", cursive;
+        --petal-animation-duration: 10s;
+    }
+
+    body {
+        font-family: "Caveat Brush", cursive;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sp{
+        display: block !important;
+    }
+
+    .pc{
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin: 0;
+        padding: 0.2em 0;
+    }
+    
+    header, section, footer {
+        padding: 1em;
+        width: 100%;
+    }
+    
+    header {
+        background: #FB9A85;
+        color: #202456;
+        text-align: center;
+    }
+    
+    footer {
+        background: #FEEDBD;
+        color: #202456;
+        text-align: center;
+    }
+    section {
+        position: static;
+        flex-direction: column;
+    }
+
+    .data, .weather {
+        width: 100%;
+    }
+    .point1 {
+        text-align: center;
+        font-size: 30px;
+        padding: 0.005px;
+    }
+    
+    .data {
+        text-align: center;
+        position: static;
+        padding: 0;
+    }
+
+    .cherry-blossom-container {
+        height: auto;
+    }
+
+    
+    .weather {
+        text-align: center;
+        position: static;
+    }
+
+    .point2 {
+        position: static;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .point2 h2{
+        background-color:rgba(249, 109, 135, 0.5);
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+
+    .point2 img {
+        position: static;
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+
+    .data, .weather {
+        padding: 0;
+    }
+    
+    .main-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+} 
+
