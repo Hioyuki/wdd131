@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.star{
+    display: flex;
+    justify-content:space-around;
+}
+
+.star-item {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+}
+
+.star-item  label{
+    cursor:pointer;
+    margin-bottom:-2px;
+    margin-left:-5px;
+}
+
+.star-item input[type="radio"]{
+    margin-top:px;
+}
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #4a4a4a;
+}
+
+.checkbox-group{
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.checkbox-group input[type="checkbox"]{
+    margin-right:10px;
+}
+
+.checkbox-group label {
+    transform: translateY(-4px);
+}
+
+select, input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"]{
+    padding:10px;
+    font-size:16px;
+    height:20px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top:30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #373737;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a4a4a;
+    color: white;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer #lastModified {
+    color: #ccc;
+}
