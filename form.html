@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review</title>
     <link rel="stylesheet" href="styles/form-style.css">
-    <script src="scripts/form-script.js　defer"></script>
+    <script src="scripts/form-script.js" defer></script> 
 </head>
 <body>
     <form method="get" action="review.html">
@@ -42,9 +42,12 @@
             </div>
 
             <label for="installationDate">Date of Installation</label>
-            <input type="text" id="datePlaceholder" placeholder="mm/dd/yyyy" onfocus="this.blur()">
+            <input type="date" id="installationDate" name="installationDate" required>
 
             <label for="writtenReview">Written Review <span>(Optional)</span></label>
+            <textarea id="writtenReview" name="writtenReview"></textarea>
+
+            <label>Which features did you find useful in the product? <span>(Check all that apply)</span></label>
             <div class="checkbox-group">
                 <input type="checkbox" id="durability" name="features" value="Durability">
                 <label for="durability">Durability</label>
@@ -61,8 +64,7 @@
                 <input type="checkbox" id="design" name="features" value="Design">
                 <label for="design">Design</label>
             </div>
-            <label>Which features did you find useful in the product? <span>(Check all that apply)</span></label>
-            <textarea id="writtenReview" name="writtenReview"></textarea>
+
             <label for="userName">Your Name <span>(Optional)</span></label>
             <input type="text" id="userName" name="userName">
             <input type="submit" value="Post Review">
