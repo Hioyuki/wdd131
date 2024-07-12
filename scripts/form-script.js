@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Element with id "lastModified" not found.');
     }
 
-    let reviewCount: string | null = localStorage.getItem('reviewCount');
+    let reviewCount = localStorage.getItem('reviewCount');
     if (reviewCount === null) {
         reviewCount = '0';
     }
-    let reviewCountNumber: number = parseInt(reviewCount);
+    let reviewCountNumber = parseInt(reviewCount);
     localStorage.setItem('reviewCount', (reviewCountNumber + 1).toString());
 });
