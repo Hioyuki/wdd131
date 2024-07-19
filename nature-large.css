@@ -95,7 +95,7 @@ main {
 
 .hero {
     text-align: center;
-    background: url('/images/image.jpg') no-repeat center center/cover;
+    background: url('https://github.com/Hioyuki/wdd131/blob/main/images/image.jpg?raw=true') no-repeat center center/cover;
     color: black;
     padding: 100px 20px;
 }
@@ -290,7 +290,7 @@ footer {
 
     .hero {
         text-align: center;
-        background: url('/images/image.jpg') no-repeat center center/cover;
+        background: url('https://github.com/Hioyuki/wdd131/blob/main/images/image.jpg?raw=true') no-repeat center center/cover;
         color: white;
         padding: 100px 20px;
     }
